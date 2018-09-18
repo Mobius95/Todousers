@@ -8,7 +8,7 @@ namespace TodoApi.Models
         public string Name { get; set; }
         public string Address { get; set; }
         public string PhoneNumber { get; set; }
-        public virtual ICollection<Todoitem> Todoitem { get; set; }
+        public virtual ICollection<Todoitem> Todoitems { get; set; }
 
     }
 }
